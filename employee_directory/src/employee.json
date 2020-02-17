@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstName": "Tom",
+    "lastName": "Jones",
+    "email": "tjones@corp.com",
+    "deskPhone": 6301112222,
+    "mobilePhone": 6302223333
+  },
+  {
+    "id": 2,
+    "firstName": "Mike",
+    "lastName": "Walrus",
+    "email": "mwalrus@corp.com",
+    "deskPhone": 6302121122,
+    "mobilePhone": 6301219988
+  },
+  {
+    "id": 3,
+    "firstName": "Chuck",
+    "lastName": "Liddel",
+    "email": "cliddel@gmail.com",
+    "deskPhone": 7183458907,
+    "mobilePhone": 3459876234
+  }
+]
