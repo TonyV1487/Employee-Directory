@@ -32,6 +32,10 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
+        <div>Sort ID's in descending order by clicking ID table header</div>
+        <div>
+          Filter who has a mobile phone by clicking Mobile Phone table header
+        </div>
         <EmployeeTable idSort={this.idSort} hasMobile={this.hasMobile}>
           {this.state.employees.map(employee => (
             <EmployeeData
