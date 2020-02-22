@@ -11,12 +11,28 @@ class App extends Component {
     employees
   };
 
+  // Sort id
+  idSort = id => {
+    const employees = this.state.employees.sort(function(a, b) {
+      return b.id - a.id;
+    });
+    this.setState({ employees });
+  };
+
+  hasMobile = hasMobile => {
+    const employees = this.state.employees.filter(
+      employee => employee.hasMobile === true
+    );
+    // Set this.state.employees equal to the new employees array
+    this.setState({ employees });
+  };
+
   // Map over this.state.employees and render a EmployeeTable component for each friend object
   render() {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
-        <EmployeeTable>
+        <EmployeeTable idSort={this.idSort} hasMobile={this.hasMobile}>
           {this.state.employees.map(employee => (
             <EmployeeData
               id={employee.id}

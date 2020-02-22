@@ -5,7 +5,8 @@
     "lastName": "Jones",
     "email": "tjones@corp.com",
     "deskPhone": 6301112222,
-    "mobilePhone": 6302223333
+    "mobilePhone": 6302223333,
+    "hasMobile": true
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "lastName": "Walrus",
     "email": "mwalrus@corp.com",
     "deskPhone": 6302121122,
-    "mobilePhone": 6301219988
+    "mobilePhone": 6301219988,
+    "hasMobile": true
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "lastName": "Liddel",
     "email": "cliddel@gmail.com",
     "deskPhone": 7183458907,
-    "mobilePhone": 3459876234
+    "mobilePhone": "",
+    "hasMobile": false
   }
 ]
